@@ -24,7 +24,7 @@
         private var _methodInvokedForSelector = [Selector: MessageDispatcher]()
 
         /// Parent object associated with delegate proxy.
-        private weak private(set) var _parentObject: ParentObject?
+        private weak var _parentObject: ParentObject?
 
         fileprivate let _currentDelegateFor: (ParentObject) -> AnyObject?
         fileprivate let _setCurrentDelegateTo: (AnyObject?, ParentObject) -> Void
@@ -256,7 +256,7 @@
 
     }
 
-    fileprivate let mainScheduler = MainScheduler()
+    private let mainScheduler = MainScheduler()
 
     fileprivate final class MessageDispatcher {
         private let dispatcher: PublishSubject<[Any]>
