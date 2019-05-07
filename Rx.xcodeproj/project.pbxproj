@@ -45,6 +45,10 @@
 		54700CA01CE37E1800EF3A8F /* UINavigationItem+RxTests.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54700C9E1CE37D1000EF3A8F /* UINavigationItem+RxTests.swift.swift */; };
 		54700CA11CE37E1900EF3A8F /* UINavigationItem+RxTests.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54700C9E1CE37D1000EF3A8F /* UINavigationItem+RxTests.swift.swift */; };
 		54D2138E1CE0824E0028D5B4 /* UINavigationItem+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D2138C1CE081890028D5B4 /* UINavigationItem+Rx.swift */; };
+		5BEE0BD121F87AFF0074DA31 /* RepeatWhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE0BD021F87AFF0074DA31 /* RepeatWhen.swift */; };
+		5BEE0BD521F87C160074DA31 /* Observable+RepeatWhenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE0BD421F87C160074DA31 /* Observable+RepeatWhenTests.swift */; };
+		5BEE0BD621F87C160074DA31 /* Observable+RepeatWhenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE0BD421F87C160074DA31 /* Observable+RepeatWhenTests.swift */; };
+		5BEE0BD721F87C160074DA31 /* Observable+RepeatWhenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE0BD421F87C160074DA31 /* Observable+RepeatWhenTests.swift */; };
 		601AE3DA1EE24E4F00617386 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601AE3D91EE24E4F00617386 /* SwiftSupport.swift */; };
 		6B9CA56B202A1F44002C2D11 /* KeyPathBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9CA568202A1F43002C2D11 /* KeyPathBinder.swift */; };
 		6B9CA56E202A206A002C2D11 /* KeyPathBinder+RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9CA56D202A1F96002C2D11 /* KeyPathBinder+RxTests.swift */; };
@@ -959,6 +963,8 @@
 		4C8DE0E120D54545003E2D8A /* DisposeBagTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeBagTest.swift; sourceTree = "<group>"; };
 		54700C9E1CE37D1000EF3A8F /* UINavigationItem+RxTests.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+RxTests.swift.swift"; sourceTree = "<group>"; };
 		54D2138C1CE081890028D5B4 /* UINavigationItem+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Rx.swift"; sourceTree = "<group>"; };
+		5BEE0BD021F87AFF0074DA31 /* RepeatWhen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatWhen.swift; sourceTree = "<group>"; };
+		5BEE0BD421F87C160074DA31 /* Observable+RepeatWhenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+RepeatWhenTests.swift"; sourceTree = "<group>"; };
 		601AE3D91EE24E4F00617386 /* SwiftSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSupport.swift; sourceTree = "<group>"; };
 		6B9CA568202A1F43002C2D11 /* KeyPathBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPathBinder.swift; sourceTree = "<group>"; };
 		6B9CA56D202A1F96002C2D11 /* KeyPathBinder+RxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyPathBinder+RxTests.swift"; sourceTree = "<group>"; };
@@ -1681,6 +1687,7 @@
 				C820A8101EB4DA5900D431BC /* Range.swift */,
 				C820A81F1EB4DA5900D431BC /* Reduce.swift */,
 				C820A8121EB4DA5900D431BC /* Repeat.swift */,
+				5BEE0BD021F87AFF0074DA31 /* RepeatWhen.swift */,
 				C820A8001EB4DA5900D431BC /* RetryWhen.swift */,
 				C820A7F01EB4DA5900D431BC /* Sample.swift */,
 				C820A7FF1EB4DA5900D431BC /* Scan.swift */,
@@ -1984,6 +1991,7 @@
 				C801DE491F6EBB84008DB060 /* Observable+PrimitiveSequenceTest.swift */,
 				C820A9791EB4FA0800D431BC /* Observable+RangeTests.swift */,
 				C820A94D1EB4EC3C00D431BC /* Observable+ReduceTests.swift */,
+				5BEE0BD421F87C160074DA31 /* Observable+RepeatWhenTests.swift */,
 				C820A97D1EB4FA5A00D431BC /* Observable+RepeatTests.swift */,
 				C820A9E91EB50E3400D431BC /* Observable+RetryWhenTests.swift */,
 				C820A9E11EB50D6C00D431BC /* Observable+SampleTests.swift */,
@@ -3176,6 +3184,7 @@
 				C8379EF41D1DD326003EF8FC /* UIButton+RxTests.swift in Sources */,
 				C820A9B61EB5081400D431BC /* Observable+MapTests.swift in Sources */,
 				C8C4F16F1DE9D5E000003FA7 /* UISlider+RxTests.swift in Sources */,
+				5BEE0BD521F87C160074DA31 /* Observable+RepeatWhenTests.swift in Sources */,
 				C820A9821EB4FB0400D431BC /* Observable+UsingTests.swift in Sources */,
 				C820A9F21EB5109300D431BC /* Observable+DefaultIfEmpty.swift in Sources */,
 				C820AA0E1EB5140100D431BC /* Observable+TimeoutTests.swift in Sources */,
@@ -3305,6 +3314,7 @@
 				C834F6C31DB394E100C29244 /* Observable+BlockingTest.swift in Sources */,
 				C83509D41C38753C0027C24C /* RxObjCRuntimeState.swift in Sources */,
 				C822BACF1DB424EC00F98810 /* Reactive+Tests.swift in Sources */,
+				5BEE0BD621F87C160074DA31 /* Observable+RepeatWhenTests.swift in Sources */,
 				C8C4F17E1DE9DF0200003FA7 /* UILabel+RxTests.swift in Sources */,
 				C83509C01C3875220027C24C /* DelegateProxyTest.swift in Sources */,
 				C820A9F31EB5109300D431BC /* Observable+DefaultIfEmpty.swift in Sources */,
@@ -3482,6 +3492,7 @@
 				C820A9881EB4FB5B00D431BC /* Observable+DebugTests.swift in Sources */,
 				C820A9E01EB50CF800D431BC /* Observable+ThrottleTests.swift in Sources */,
 				C8350A1F1C38756B0027C24C /* ObserverTests.swift in Sources */,
+				5BEE0BD721F87C160074DA31 /* Observable+RepeatWhenTests.swift in Sources */,
 				C820A9681EB4F39500D431BC /* Observable+SubscribeOnTests.swift in Sources */,
 				C820A9981EB4FF7000D431BC /* Observable+ConcatTests.swift in Sources */,
 				C820A9901EB4FCC400D431BC /* Observable+SwitchTests.swift in Sources */,
@@ -3674,6 +3685,7 @@
 				C83D73C01C1DBAEE003DC470 /* InvocableType.swift in Sources */,
 				C8093D731B8A72BE0088E94D /* ObserverBase.swift in Sources */,
 				C820A8EC1EB4DA5A00D431BC /* Never.swift in Sources */,
+				5BEE0BD121F87AFF0074DA31 /* RepeatWhen.swift in Sources */,
 				C820A8981EB4DA5A00D431BC /* Catch.swift in Sources */,
 				C85106881C2D550E0075150C /* String+Rx.swift in Sources */,
 				C820A9141EB4DA5A00D431BC /* ToArray.swift in Sources */,
